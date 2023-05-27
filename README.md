@@ -10,7 +10,7 @@ NeuBorder is a rework of [obsidian-border](https://github.com/Akifyss/obsidian-b
 
 ## Installing:
 1. Download the latest version of `NeuBorder.zip` from [Releases](https://github.com/sq1000000/NeuBorder/releases)
-2. Move the folder `NeuBorder` (from the zip) into `vault/.obsidian/themes/`
+2. Extract `NeuBorder.zip` into `vault/.obsidian/themes/`
 3. In Obsidian, click the drop-down menu in Settings/Appearance/Themes, and select "NeuBorder"
 
 ## Compiling:
