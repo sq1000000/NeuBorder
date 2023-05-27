@@ -1,5 +1,7 @@
+VAULT=/home/sq/Obsidian/Notes
+
 lessc main.less out.css
-mkdir /home/sq/Obsidian/Notes/.obsidian/themes/
-mkdir /home/sq/Obsidian/Notes/.obsidian/themes/NeuBorder/
-mv out.css /home/sq/Obsidian/Notes/.obsidian/themes/NeuBorder/theme.css
-cp src/manifest.json /home/sq/Obsidian/Notes/.obsidian/themes/NeuBorder/
+mkdir $VAULT/.obsidian/themes/
+mkdir $VAULT/.obsidian/themes/NeuBorder/
+mv out.css $VAULT/.obsidian/themes/NeuBorder/theme.css
+cp src/manifest.json $VAULT/.obsidian/themes/NeuBorder/
