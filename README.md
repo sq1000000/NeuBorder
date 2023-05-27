@@ -9,8 +9,8 @@ A neumorphic rework of [obsidian-border](https://github.com/Akifyss/obsidian-bor
 NeuBorder is a rework of [obsidian-border](https://github.com/Akifyss/obsidian-border) that prioritizes neumorphic design, legibility, and keeping away distractions.
 
 ## Installing:
-1. Download the latest release from [Releases](https://github.com/sq1000000/NeuBorder/releases)
-2. Move the downloaded folder into `vault/.obsidian/themes/`
+1. Download the latest version of `NeuBorder.zip` from [Releases](https://github.com/sq1000000/NeuBorder/releases)
+2. Move the folder `NeuBorder` (from the zip) into `vault/.obsidian/themes/`
 3. In Obsidian, click the drop-down menu in Settings/Appearance/Themes, and select "NeuBorder"
 
 ## Compiling:
