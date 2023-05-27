@@ -1,0 +1,477 @@
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-right-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-right-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-right-split) !important;
+}
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .workspace-leaf,
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .workspace-leaf-content,
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .view-header:not(.animate),
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .view-content:not(.vignette-radial, .vignette-linear, .animate),
+.sidebar-toggle-button,
+.mod-left-split .workspace-tab-header.has-active-menu,
+.mod-right-split .workspace-tab-header.has-active-menu,
+body:not(.is-mobile) .workspace-tab-header-container,
+.workspace>.workspace-split,
+.workspace-tabs.mod-top {
+    background-color: transparent !important;
+}
+body:not(.is-mobile) .workspace,
+.workspace-ribbon.mod-left:before,
+body:not(.is-translucent):not(.is-mobile) .sidebar-toggle-button.mod-left {
+    background-color: transparent;
+}
+
+.workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active {
+    background-color: transparent !important;
+    box-shadow: none;
+    overflow: visible;
+}
+
+body:not(.is-mobile) .view-header-title-container:not(.mod-at-start):before,
+body:not(.is-mobile) .view-header-title-container:not(.mod-at-end):after {
+    background: transparent;
+}
+
+/* background - underlying */
+body:not(.is-mobile) .app-container {
+    background-color: var(--background-underlying);
+}
+body.background-underlying-Color-light.theme-light {
+    --background-underlying: var(--background-underlying-light) !important;
+}
+body.background-underlying-Color-dark.theme-dark {
+    --background-underlying: var(--background-underlying-dark) !important;
+}
+body.theme-light:not(.is-mobile).background-underlying-CSS-light .app-container {
+    background: var(--background-underlying-CSS-light, --background-underlying) !important;
+    background-blend-mode: var(--background-underlying-CSS-blend-mode-light) !important;
+}
+
+/* ====== Layout ===== */
+/* default Layout*/
+body {
+    --card-shadow-light: 0px 0px 8px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.2);
+    --card-shadow-dark: 0px 0px 0px 1px var(--background-modifier-border);
+    --card-border-radius-light: 8px;
+    --card-border-radius-dark: 8px;
+    --card-shadow-border-radius-light: calc(var(--card-border-radius-light) - 1px);
+    --card-shadow-border-radius-dark: calc(var(--card-border-radius-dark) - 1px);
+}
+body.is-frameless:not(.is-hidden-frameless).is-fullscreen {
+    padding-top: 0;
+}
+
+/* foreground - underlying */
+body {
+    --on-border-light: var(--color-accent-3);
+    --on-border-dark: var(--color-accent-3);
+    --mix-blend-mode-on-border-light: normal;
+    --mix-blend-mode-on-border-dark: screen;
+}
+.theme-light:not(.is-mobile) .titlebar,
+.theme-light:not(.is-mobile) .status-bar,
+.theme-light:not(.is-mobile) .workspace-ribbon,
+.theme-light:not(.is-mobile) .workspace-tabs.mod-top .workspace-tab-header-container,
+.theme-light:not(.is-mobile).card-layout-open-light .workspace-tabs .workspace-tab-header-container {
+    --text-muted: var(--on-border-light);
+    --text-faint: var(--on-border-light);
+    --titlebar-text-color: var(--text-muted);
+    --tab-text-color-active: var(--text-muted);
+    --tab-text-color-focused: var(--text-muted);
+    --tab-text-color-focused-active: var(--text-muted);
+    --status-bar-text-color: var(--text-muted);
+    --icon-color: var(--text-muted);
+    --icon-color-hover: var(--text-muted);
+    --tab-text-color: var(--text-faint);
+    --icon-opacity: 1;
+    mix-blend-mode: var(--mix-blend-mode-on-border-light);
+}
+body.theme-light.mod-left-split-background-primary-light {
+    --background-mod-left-split: var(--background-primary) !important;
+}
+body.theme-light.mod-right-split-background-primary-light {
+    --background-mod-left-split: var(--background-primary) !important;
+}
+body.theme-dark:not(.is-mobile).card-layout-open-dark.mod-left-split-background-transparent-dark .mod-left-split .workspace-tab-container {
+    --card-shadow-dark: transparent;
+}
+body.theme-light.mod-left-split-background-customize-light {
+    --background-mod-left-split: var(--background-mod-left-split-light) !important;
+}
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-left-split .workspace-tabs:not(.mod-top),
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-left-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-left-split) !important;
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split.mod-right-split .workspace-tab-container,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-right-split .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-right-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-right-split .workspace-tabs:not(.mod-top),
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-right-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-left-split) !important;
+}
+body:not(.is-mobile).theme-light.card-layout-open-light.mod-left-split-background-CSS-light .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-left-split-background-CSS-light .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-left-split-background-CSS-light .workspace-split.mod-left-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-left-CSS-light) !important;
+    background-blend-mode: var(--background-mod-left-CSS-blend-mode-light);
+    backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-light);
+    -webkit-backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-light);
+}
+
+body:not(.is-mobile).theme-dark.card-layout-open-dark.mod-left-split-background-CSS-dark .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-left-split-background-CSS-dark .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-left-split-background-CSS-dark .workspace-split.mod-left-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-left-CSS-dark) !important;
+    background-blend-mode: var(--background-mod-left-CSS-blend-mode-dark);
+    backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-dark);
+    -webkit-backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-dark);
+}
+
+/* background - mod-root */
+body.theme-light.mod-root-split-background-primary-light,
+body.theme-dark.mod-root-split-background-primary-dark,
+body.theme-light.mod-root-split-background-transparent-light:not(.card-layout-open-light),
+body.theme-dark.mod-root-split-background-transparent-dark:not(.card-layout-open-dark),
+body.theme-light:is(.mod-root-split-background-transparent-light, .mod-root-split-background-CSS-light) .mod-stacked,
+body.theme-dark:is(.mod-root-split-background-transparent-dark, .mod-root-split-background-CSS-dark) .mod-stacked {
+    --background-mod-root-split: var(--background-primary) !important;
+
+}
+body.theme-light.mod-root-split-background-secondary-light,
+body.theme-dark.mod-root-split-background-secondary-dark {
+    --background-mod-root-split: var(--background-secondary) !important;
+}
+body.theme-light.mod-root-split-background-transparent-light.card-layout-open-light,
+body.theme-dark.mod-root-split-background-transparent-dark.card-layout-open-dark {
+    --background-mod-root-split: transparent !important;
+}
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split.mod-root .workspace-tab-container,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-root .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-root .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-root .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-root .workspace-tabs:not(.mod-top),
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-root .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-root-split) !important;
+}
+body:not(.is-mobile) .workspace-split.mod-left-split,
+body:not(.is-mobile) .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
+
+    border-bottom-left-radius: var(--card-border-radius-light, 8px);
+    overflow: hidden;
+}
+body:not(.is-mobile).theme-dark .workspace-split.mod-left-split,
+body:not(.is-mobile).theme-dark .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
+    border-bottom-left-radius: var(--card-border-radius-dark, 8px);
+}
+body:not(.is-mobile) .workspace:not(.is-right-sidedock-open) .workspace-split.mod-root,
+body:not(.is-mobile) .workspace-split.mod-right-split {
+    border-bottom-right-radius: var(--card-border-radius-light, 8px);
+    overflow: hidden;
+}
+body:not(.is-mobile).theme-dark .workspace:not(.is-right-sidedock-open) .workspace-split.mod-root,
+body:not(.is-mobile).theme-dark .workspace-split.mod-right-split {
+    border-bottom-right-radius: var(--card-border-radius-dark, 8px);
+}
+.workspace-window .mod-top-left-space .workspace-tab-container,
+.workspace-window .mod-top-left-space .workspace-tab-container .workspace-leaf-content {
+    border-top-left-radius: 0px !important;
+}
+body:not(.is-mobile) .workspace::before {
+    content: " ";
+    width: calc(100% - 44px);
+    height: calc(100% - 44px);
+    border-radius: var(--card-shadow-border-radius-light, 7px);
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+body:not(.is-mobile).theme-dark .workspace::before {
+    border-radius: var(--card-shadow-border-radius-dark, 7px);
+    box-shadow: var(--card-shadow-dark, 0px 0px 0px 1px var(--background-modifier-border));
+}
+body:not(.is-mobile).is-popout-window .workspace::before {
+    width: calc(100%) !important;
+    height: calc(100% - 44px);
+}
+.workspace-tab-header-container,
+.workspace-tabs.mod-top .workspace-tab-header-container,
+.workspace-ribbon.mod-left:before {
+    border-bottom: 1px solid transparent;
+}
+body:not(.is-mobile) .workspace-ribbon {
+    padding: 5px 0px 6px;
+}
+.workspace-ribbon.side-dock-ribbon.mod-left,
+.workspace-ribbon,
+.workspace-tabs {
+    gap: 04px;
+}
+body:not(.is-mobile) .workspace-ribbon {
+  margin-top: 44px;
+}
+.workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px var(--workspace-divider-color);
+}
+body.theme-light.card-layout-open-light .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.card-layout-open-dark .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px transparent;
+}
+
+/* scrollbar */
+body {
+    /* Scrollbars */
+    --scrollbar-active-thumb-bg: rgba(var(--mono-rgb-100), 0.15);
+    --scrollbar-bg: rgba(var(--mono-rgb-100), 0);
+    --scrollbar-thumb-bg: rgba(var(--mono-rgb-100), 0.15);
+}
+body:not(.native-scrollbars) ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+body.is-mobile:not(.native-scrollbars) ::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+body:not(.native-scrollbars) ::-webkit-scrollbar-track,
+body:not(.native-scrollbars) ::-webkit-scrollbar-track-piece,
+body:not(.native-scrollbars):not(.is-mobile) ::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+}
+body:not(.native-scrollbars):not(.is-mobile) :hover::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-bg) !important;
+}
+body:not(.native-scrollbars):not(.is-mobile) ::-webkit-scrollbar-thumb:hover,
+body:not(.native-scrollbars):not(.is-mobile) ::-webkit-scrollbar-thumb:active {
+    background-color: var(--scrollbar-active-thumb-bg) !important;
+}
+body:not(.native-scrollbars) ::-webkit-scrollbar-thumb:hover {
+    margin-right: 100px 100 100;
+    -webkit-border-radius: var(--radius-l);
+    border: 2px solid transparent;
+    border-width: 0px 0px 0px 0px;
+}
+body:not(.is-mobile).scrollbar-space-occupation-off :is(.mk-file-tree>div>div) {
+    overflow-y: overlay !important;
+}
+
+/* ====== titlebar ===== */
+body.is-hidden-frameless .titlebar .titlebar-button-container {
+    background-color: transparent !important;
+}
+.titlebar .titlebar-button-container.mod-right {
+    margin-right: 16px;
+}
+body.mod-windows .titlebar .titlebar-button.mod-close:hover,
+body.mod-windows .titlebar .titlebar-button.mod-close:focus {
+    background-color: var(--background-modifier-error) !important;
+}
+body.mod-windows .titlebar .titlebar-button.mod-close:hover::after,
+body.mod-windows .titlebar .titlebar-button.mod-close:focus::after {
+    background-color: var(--text-on-accent) !important;
+}
+body.mod-windows .titlebar .titlebar-button.mod-close:hover,
+body.mod-windows .titlebar .titlebar-button.mod-close:focus {
+    color: var(--text-on-accent) !important;
+}
+.titlebar-button-container.mod-right .titlebar-button {
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    padding: 0;
+    margin: auto 8px;
+    background-color: transparent;
+}
+.titlebar-button-container.mod-right .titlebar-button:hover {
+    background-color: var(--background-modifier-hover);
+}
+.titlebar-button-container.mod-right .titlebar-button:last-of-type {
+    margin-right: 0px;
+}
+body.is-hidden-frameless .titlebar-button-container.mod-right {
+    height: 44px;
+}
+.titlebar-button:not(.mod-logo)>svg {
+    display: none;
+}
+.titlebar-button-container.mod-right .titlebar-button::after {
+    content: '';
+    background-color: var(--on-border-light);
+    width: 16px;
+    height: 16px;
+    margin: auto;
+}
+
+
+/* Defines window control svgs*/
+.titlebar-button-container.mod-right .titlebar-button.mod-close::after {
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="_å±‚_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style></defs><path class="cls-2" d="M4.29,4.29c.39-.39,1.02-.39,1.41,0l6,6c.39,.39,.39,1.02,0,1.41s-1.02,.39-1.41,0L4.29,5.71c-.39-.39-.39-1.02,0-1.41Z"/><path class="cls-2" d="M11.71,4.29c.39,.39,.39,1.02,0,1.41l-6,6c-.39,.39-1.02,.39-1.41,0s-.39-1.02,0-1.41l6-6c.39-.39,1.02-.39,1.41,0Z"/><rect class="cls-1" width="16" height="16"/></svg>');
+}
+.titlebar-button-container.mod-right .titlebar-button.mod-maximize::after {
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="_å±‚_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style></defs><path class="cls-2" d="M6,6v4h4V6H6Zm-1-2c-.55,0-1,.45-1,1v6c0,.55,.45,1,1,1h6c.55,0,1-.45,1-1V5c0-.55-.45-1-1-1H5Z"/><rect class="cls-1" width="16" height="16"/></svg>');
+}
+.titlebar-button-container.mod-right .titlebar-button.mod-minimize::after {
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="_å±‚_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><defs><style>.cls-1{fill:none;}.cls-2{fill-rule:evenodd;}</style></defs><path class="cls-2" d="M4,11c0-.55,.45-1,1-1h6c.55,0,1,.45,1,1s-.45,1-1,1H5c-.55,0-1-.45-1-1Z"/><rect class="cls-1" width="16" height="16"/></svg>');
+}
+
+/* ====== status bar====== */
+/* tab */
+/* tab layout */
+.workspace-tab-header::before,
+.workspace-tab-header::after {
+    display: none;
+}
+.sidebar-toggle-button {
+    padding-top: 6px;
+}
+.mod-macos.is-hidden-frameless:not(.is-popout-window) .sidebar-toggle-button.mod-right {
+    padding-right: 16px;
+}
+body:not(.is-hidden-frameless):not(.is-popout-window) .sidebar-toggle-button.mod-right {
+    margin-right: -8px;
+}
+.workspace-tab-header-inner {
+    border-radius: 6px;
+}
+.workspace .mod-root .workspace-tab-header {
+    padding: 0px 3px 2px;
+}
+.workspace .mod-root .workspace-tab-header:first-child {
+    padding: 0px 3px 2px 0px;
+}
+.workspace .mod-root .workspace-tab-header-inner::after {
+    background-color: var(--divider-color);
+}
+.mod-root .workspace-tab-header-inner {
+    padding: 0 6px 0 8px
+}
+.mod-root .workspace-tab-header-container-inner {
+    margin: 0px;
+    padding: 6px 8px 4px 6px;
+    height: calc(var(--header-height) + 4px);
+}
+.mod-left-split .workspace-tab-header-container-inner,
+.mod-right-split .workspace-tab-header-container-inner {
+    padding: 6px;
+    margin: 0px;
+    gap: 2px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    overflow-y: visible;
+}
+
+/* tab style */
+body {
+    --border-radius-activated-tab-header-light: 6px;
+    --border-radius-activated-tab-header-dark: 6px;
+    --color-activated-tab-header-light: var(--text-normal);
+    --color-activated-tab-header-dark: var(--text-normal);
+    --background-activated-tab-header-light: var(--background-primary);
+    --shadow-activated-tab-header-light: 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 2px hsla(var(--accent-h), 18%, 80%, 0.2), 0 0 0 1px var(--background-modifier-border);
+    --background-activated-tab-header-dark: var(--background-modifier-active-hover);
+    --shadow-activated-tab-header-dark: inset 0 0 0 1px var(--background-modifier-border);
+}
+body.theme-light.color-to-tab-icon-light .mod-root .workspace-tab-header.is-active svg,
+body.theme-light :is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+body.theme-light .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+    color: var(--color-activated-tab-header-light) !important;
+    --icon-opacity: 1;
+}
+body.theme-dark.color-to-tab-icon-dark .mod-root .workspace-tab-header.is-active svg,
+body.theme-dark :is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+body.theme-dark .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+    color: var(--color-activated-tab-header-dark) !important;
+    --icon-opacity: 1;
+}
+body:not(.is-mobile).theme-dark .workspace-tab-header .workspace-tab-header-inner {
+    border-radius: var(--border-radius-activated-tab-header-dark);
+}
+.workspace-tab-header-tab-list,
+.workspace-tab-header-new-tab {
+    padding-top: 6px;
+}
+.mod-left-split .workspace-tab-header .workspace-tab-header-inner,
+.mod-right-split .workspace-tab-header .workspace-tab-header-inner,
+.clickable-icon.side-dock-ribbon-action,
+.sidebar-toggle-button .clickable-icon,
+.workspace-tab-header-new-tab .clickable-icon,
+.workspace-tab-header-tab-list .clickable-icon {
+    padding: 6px;
+    height: 32px;
+    width: 32px;
+}
+.mod-left-split .workspace-tab-header .workspace-tab-header-inner,
+.mod-right-split .workspace-tab-header .workspace-tab-header-inner {
+    /*pin icon*/
+    width: fit-content;
+    gap: var(--size-2-2);
+}
+body:not(.is-mobile) .mod-left-split .workspace-tab-header-inner-icon .svg-icon,
+body:not(.is-mobile) .mod-right-split .workspace-tab-header-inner-icon .svg-icon,
+body:not(.is-mobile) .clickable-icon.side-dock-ribbon-action .svg-icon,
+body:not(.is-mobile) .clickable-icon.nav-action-button .svg-icon,
+body:not(.is-mobile) .sidebar-toggle-button .clickable-icon .svg-icon,
+body:not(.is-mobile) .workspace-tab-header-new-tab .clickable-icon .svg-icon,
+body:not(.is-mobile) .workspace-tab-header-tab-list .clickable-icon .svg-icon {
+    --icon-size: var(--icon-l);
+    --icon-l: 20px;
+}
+.titlebar .workspace-tab-header-tab-list,
+.titlebar .workspace-tab-header-new-tab,
+.mod-root .workspace-tab-header-tab-list,
+.mod-root .workspace-tab-header-new-tab {
+    display: unset;
+}
+
+/* Adds rounded corners to the top of the workspace */
+/* Find a way to make this only apply rounded corners when the workspace ribbon is closed */
+body:not(.is-mobile) .workspace-ribbon,
+body:not(.is-mobile) .mod-top-left-space .workspace-tab-container,
+body.is-popout-window .workspace-tabs.mod-top-left-space>.workspace-tab-container {
+    border-top-left-radius: var(--card-border-radius-light, 8px) !important;
+        overflow: hidden;
+}
+body:not(.is-mobile) .workspace:not(.is-right-sidedock-open) .workspace-split.mod-root,
+body:not(.is-mobile) .workspace-split.mod-right-split {
+    border-bottom-right-radius: var(--card-border-radius-light, 8px);
+    overflow: hidden;
+}
+
+/* Rounds corners on the workspace ribbon while it's open */
+.workspace-ribbon{
+    border-top-left-radius: var(--card-border-radius-light);
+    border-top-right-radius: var(--card-border-radius-light);
+}
+
+/* no idea what this stuff does. It's probably important */
+.workspace-window .mod-top-left-space .workspace-tab-container,
+.workspace-window .mod-top-left-space .workspace-tab-container .workspace-leaf-content {
+    border-top-left-radius: 0px !important;
+}
+body:not(.is-mobile) .workspace::before {
+    content: " ";
+    width: calc(100% - 44px);
+    height: calc(100% - 44px);
+    border-radius: var(--card-shadow-border-radius-light, 7px);
+    background-color: transparent;
+    box-shadow: var(--card-shadow-light, 0px 0px 8px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.2));
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+body:not(.is-mobile).is-popout-window .workspace::before {
+    width: calc(100%) !important;
+    height: calc(100% - 44px);
+}
+.workspace-tab-header-container,
+.workspace-tabs.mod-top .workspace-tab-header-container,
+.workspace-ribbon.mod-left:before {
+    border-bottom: 1px solid transparent;
+}

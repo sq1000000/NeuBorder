@@ -1,0 +1,68 @@
+/* Adds Neumorphic styling to community item boxes */
+.community-item {
+  border-radius: var(--button-radius-large);
+    box-shadow: var(--shadow);
+}
+.community-item:hover {
+    box-shadow: var(--shadow-hover);
+}
+.community-item.is-selected {
+    box-shadow: var(--shadow-selected);
+}
+.community-item:hover {
+    box-shadow: var(--shadow-hover);
+}
+.suggestion-highlight {
+    color: black;
+}
+
+/* Adds Neumorphic styling to author links in community item descriptions */
+.community-modal-info-author a:link,
+.community-modal-info-repo a:link {
+    text-decoration: none !important;
+    background-color:var(--color-primary-lighter);
+    margin-right: 2px;
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 4px;    
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: var(--shadow);
+}
+.community-modal-info-author a:link:hover,
+.community-modal-info-repo a:link:hover {
+   background-color: var(--background-modifier-hover);
+   box-shadow: var(--shadow-hover);
+}
+.community-modal-info-author a:link:active,
+.community-modal-info-repo a:link:active {
+    box-shadow: var(--shadow-active);
+}
+
+
+/* Adds Neumorphic styling to the "Change sort order" button*/
+.mod-community-modal .modal-sidebar button.clickable-icon {
+    border-radius: var(--button-radius-medium);
+    box-shadow: var(--shadow);
+}
+.mod-community-modal .modal-sidebar button.clickable-icon:hover {
+   background-color: var(--background-modifier-hover);
+   box-shadow: var(--shadow-hover);
+}
+.mod-community-modal .modal-sidebar button.clickable-icon:active {
+    box-shadow: var(--shadow-active);
+}
+
+/* Adds Neumorphic styling to the back button*/
+.modal-setting-nav-bar div.clickable-icon {
+    background-color: var(--interactive-normal);
+    border-radius: var(--button-radius-medium);
+    box-shadow: var(--shadow);
+}
+.modal-setting-nav-bar div.clickable-icon:hover {
+   background-color: var(--background-modifier-hover);
+   box-shadow: var(--shadow-hover);
+}
+.modal-setting-nav-bar div.clickable-icon:active {
+    box-shadow: var(--shadow-active);
+}

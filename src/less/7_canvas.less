@@ -1,0 +1,36 @@
+.canvas-control-item {
+    box-shadow: var(--shadow);
+}
+.canvas-control-item:hover {
+    box-shadow: var(--shadow-hover);
+}
+.canvas-control-item:active {
+    box-shadow: var(--shadow-active);
+}
+
+/* I tried so hard to find a way to line up these buttons with the ones above it but I gotta do work too. Fix this sometime later */
+/* Also make it so that the button shadows aren't being cut off */
+.clickable-icon.graph-controls-button {
+    background-color: var(--interactive-normal);
+    border-radius: var(--button-radius-medium);
+    cursor: pointer;
+    color: var(--text-muted);
+    border-right: 20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: var(--shadow);
+}
+.clickable-icon.graph-controls-button:hover {
+    background-color: var(--background-modifier-hover);
+    box-shadow: var(--shadow-hover);
+}
+.clickable-icon.graph-controls-button:active {
+    box-shadow: var(--shadow-active);
+}
+.graph-controls.is-close {
+   right: 0px; 
+   padding: 16px;
+}
+.graph-controls-button.mod-reset {
+    margin-right: 5px;
+}
