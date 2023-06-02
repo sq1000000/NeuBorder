@@ -17,14 +17,14 @@ NeuBorder is a rework of [obsidian-border](https://github.com/Akifyss/obsidian-b
 ## Installing (Without the Obsidian Theme Repository):
 1. Download the latest version of `NeuBorder.zip` from [Releases](https://github.com/sq1000000/NeuBorder/releases)
 2. Extract `NeuBorder.zip` into `vault/.obsidian/themes/`
-3. In Obsidian, click the drop-down menu in 'Settings/Appearance/Themes', and select 'NeuBorder'
+3. In Obsidian, click the drop-down menu in `Settings/Appearance/Themes`, and select "NeuBorder"
 
 ## Compiling:
 1. Make sure that [lessc](https://lesscss.org/) is installed
 2. Clone this repository
 3. Edit  the variable 'VAULT' in `compile.sh` to the path of your Obsidian vault
 4. Run `compile.sh` in a Linux or MacOS CLI
-5. In Obsidian, click the drop-down menu in 'Settings/Appearance/Themes', and select 'NeuBorder'
+5. In Obsidian, click the drop-down menu in 'Settings/Appearance/Themes', and select "NeuBorder"
 
 ## Contributing:
 It's no secret that NeuBorder is full of holes
