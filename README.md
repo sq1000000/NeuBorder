@@ -27,7 +27,12 @@ NeuBorder is a rework of [obsidian-border](https://github.com/Akifyss/obsidian-b
 5. In Obsidian, click the drop-down menu in 'Settings/Appearance/Themes', and select 'NeuBorder'
 
 ## Contributing:
-NeuBorder is full of holes. The theme barely works on mobile, it looks terrible in dark mode, and it doesn't look nearly as good as a properly implemented neumorphic design [should look](https://dribbble.com/tags/neumorphism).
+It's no secret that NeuBorder is full of holes
+
+- The theme barely works on mobile
+- It looks terrible in dark mode
+- It doesn't look nearly as good as a properly implemented neumorphic design [should look](https://dribbble.com/tags/neumorphism)
+- The thumbnail doesn't represent the look of the theme very well
 
 If you want these things fixed, beg [sq1000000](https://github.com/sq1000000) to fix them in [issues](https://github.com/sq1000000/NeuBorder/issues), or  fix them yourself with a [pull request](https://github.com/sq1000000/NeuBorder/pulls).
 
