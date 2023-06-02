@@ -24,7 +24,7 @@ NeuBorder is a rework of [obsidian-border](https://github.com/Akifyss/obsidian-b
 2. Clone this repository
 3. Edit  the variable 'VAULT' in `compile.sh` to the path of your Obsidian vault
 4. Run `compile.sh` in a Linux or MacOS CLI
-5. In Obsidian, click the drop-down menu in 'Settings/Appearance/Themes', and select "NeuBorder"
+5. In Obsidian, click the drop-down menu in `Settings/Appearance/Themes`, and select "NeuBorder"
 
 ## Contributing:
 It's no secret that NeuBorder is full of holes
@@ -34,7 +34,7 @@ It's no secret that NeuBorder is full of holes
 - It doesn't look nearly as good as a properly implemented neumorphic design [should look](https://dribbble.com/tags/neumorphism)
 - The thumbnail doesn't represent the look of the theme very well
 
-If you want these things fixed, beg [sq1000000](https://github.com/sq1000000) to fix them in [issues](https://github.com/sq1000000/NeuBorder/issues), or  fix them yourself with a [pull request](https://github.com/sq1000000/NeuBorder/pulls).
+If you want these things fixed, fix them yourself with a [pull request](https://github.com/sq1000000/NeuBorder/pulls), or beg [sq1000000](https://github.com/sq1000000) to fix them in [issues](https://github.com/sq1000000/NeuBorder/issues).
 
 ## Credits:
 - [Akifyss ](https://github.com/Akifyss) for the [theme](https://github.com/Akifyss/obsidian-border) that this is based off of
