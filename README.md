@@ -4,7 +4,7 @@ A neumorphic rework of [obsidian-border](https://github.com/Akifyss/obsidian-bor
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/sq1000000/NeuBorder?color=%23eac54f&style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/sq1000000/NeuBorder?color=%232da44e&style=flat-square) ![GitHub closed issues](https://img.shields.io/github/issues-closed/sq1000000/NeuBorder?color=%238250df&style=flat-square)
 
-![Screenshot from 2023-05-23 00-43-12](./img/cover.png)
+![Screenshot](./img/cover.png)
 
 NeuBorder is a rework of [obsidian-border](https://github.com/Akifyss/obsidian-border) that prioritizes neumorphic design, legibility, and keeping away distractions.
 
