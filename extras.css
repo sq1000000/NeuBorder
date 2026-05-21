@@ -3,6 +3,18 @@ This css contains some excerpts that can be used with the NeuBorder theme.
 */
 
 /* ================================================================= */
+/* ??. Custom Fonts                                                  */
+/* ================================================================= */
+
+/*
+body {
+  --font-interface: "Mona-Sans";
+  --font-text: "Mona-Sans", "Arial";
+  --font-monospace: "Hack";
+}
+*/
+
+/* ================================================================= */
 /* ??. Custom window borders                                         */
 /* ================================================================= */
 

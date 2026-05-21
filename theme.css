@@ -32,11 +32,6 @@ body {
   --anim-duration-fast: calc(150ms / var(--anim-speed));
   --anim-duration-moderate: calc(300ms / var(--anim-speed));
   --anim-duration-slow: calc(600ms / var(--anim-speed));
-
-  /* Default Fonts */
-  --font-interface: "Mona-Sans";
-  --font-text: "Mona-Sans", "Arial";
-  --font-monospace: "Hack";
 }
 
 /* Define variables unbound to theme */
